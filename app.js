@@ -142,11 +142,11 @@ const showFormToAddInfo = () => {
             <input type="email" id="email" required/>
             <br>
             <br>
-            <label for="phone">phone No</label>
+            <label for="phone">Phone No</label>
             <input type="text" id="phone" required/>
             <br>
             <br>
-            <button type="submit">purchase</button>
+            <button id="confirm-purchase" type="submit">Purchase</button>
         </form>
     </section>
     `
