@@ -136,17 +136,17 @@ const showFormToAddInfo = () => {
     seatSelectorHeaderEl.classList.add('v-none');
     const formEl = `
     <section id="confirm-purchase">
-        <h2>confirm your booking for seat No : ${selectedSeats.join(", ")}</h2>
+        <h2>confirm your booking for seat No:${selectedSeats.join(", ")}</h2>
         <form id="customer-detail-form">
             <label for="email">Email</label>
             <input type="email" id="email" required/>
             <br>
             <br>
-            <label for="phone">Phone No</label>
-            <input type="text" id="phone" required/>
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" required/>
             <br>
             <br>
-            <button id="confirm-purchase" type="submit">Purchase</button>
+            <button type="submit">Purchase</button>
         </form>
     </section>
     `

@@ -36,6 +36,7 @@ h4{
 .movie-img-wrapper{
     height: 200px;
     width: 150px
+    
 }
 
 .d-none{
@@ -76,7 +77,7 @@ h4{
     justify-content: space-between;
 }
 .selected-seat{
-    outline: 4px solid blue;
+    outline: 4px solid black;
 }
 #book-ticket-btn{
     padding: 10px 20px;
@@ -86,6 +87,7 @@ h4{
     border-radius: 5px;
     cursor: pointer;
 }
+
 
 /* .d-none{
     display: none;
