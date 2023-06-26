@@ -4,10 +4,39 @@
     box-sizing: border-box;
 }
 
+.navbar-container{
+    display: flex;
+    background-color: rgb(0, 0, 255);
+    padding: 12px 16px;
+    color:  rgb(255, 255, 255);
+    justify-content: space-between;
+}
+.link-container{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-evenly;
+}
 
+.main-container{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+a{
+    text-decoration: none;
+    color: #fff
+}
 
+h4{
+    color: black
+}
 
+.movie-img-wrapper{
+    height: 200px;
+    width: 150px
+}
 
 .d-none{
     display: none;
@@ -15,4 +44,53 @@
 .v-none{
     visibility: hidden;
 }
+#booker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.unavailable-seat{
+    background-color: red;
+}
+.unavailable-seat:hover{
+    cursor:no-drop;
+}
+.available-seat:hover{
+    background-color: rgb(0, 76, 0);
+    cursor: pointer
+}
+.available-seat{
+    background-color: green;
+}
+.booking-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(3, 75px);
+    gap: 10px;
+}
+#booker-grid-holder{
+    display: flex;
+    margin: 20px;
+    width: 70%;
+    justify-content: space-between;
+}
+.selected-seat{
+    outline: 4px solid blue;
+}
+#book-ticket-btn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+/* .d-none{
+    display: none;
+}
+.v-none{
+    visibility: hidden;
+}
+ */
