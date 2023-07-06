@@ -1,5 +1,4 @@
-import {fetchMovieAvailability,fetchMovieList} from "./api.js"
-
+import { fetchMovieAvailability, fetchMovieList } from "./api.js"
 const mainElement = document.getElementById('main');
 let bookerGridHolder = document.getElementById('booker-grid-holder');
 let bookTicketBtn = document.getElementById('book-ticket-btn');
